@@ -128,10 +128,14 @@ export default function WatchHero() {
       <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black via-black/50 to-transparent pointer-events-none" />
       
       {/* Brand name in top right corner */}
-      <div className="absolute top-8 right-6 md:top-12 md:right-12 z-20 pointer-events-none">
-        <h2 className="text-white/90 font-serif text-lg md:text-2xl tracking-[0.25em] uppercase font-light">
+      <div className="absolute top-8 right-6 md:top-12 md:right-12 z-20 pointer-events-none flex flex-col items-end">
+        <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-[#e8d3a7] via-[#fff] to-[#c9a876] font-serif text-2xl md:text-4xl tracking-[0.3em] uppercase font-light drop-shadow-[0_0_15px_rgba(201,168,118,0.3)]">
           Aurum Genève
         </h2>
+        <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-[#c9a876]/50 to-transparent my-2" />
+        <span className="text-[#c9a876]/80 font-sans text-[0.65rem] md:text-[0.7rem] tracking-[0.5em] uppercase font-medium">
+          Maison Horlogère Since 1884
+        </span>
       </div>
 
       <div className="absolute bottom-12 left-6 md:left-12 pointer-events-none">
