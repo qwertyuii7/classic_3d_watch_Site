@@ -41,6 +41,7 @@ export function formatDate(date: Date, options?: Intl.DateTimeFormatOptions) {
 }
 
 // Utility function to debounce function calls
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function debounce<T extends (...args: any[]) => void>(func: T, wait: number) {
   let timeout: ReturnType<typeof setTimeout> | null = null;
   return function (...args: Parameters<T>) {
@@ -56,6 +57,7 @@ export function debounce<T extends (...args: any[]) => void>(func: T, wait: numb
 }
 
 // Utility function to throttle function calls
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function throttle<T extends (...args: any[]) => void>(func: T, limit: number) {
   let inThrottle = false;
   return function (...args: Parameters<T>) {

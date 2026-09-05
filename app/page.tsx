@@ -144,7 +144,7 @@ export default function Home() {
           <div className="relative z-10 max-w-4xl mx-auto">
             <div className="w-px h-16 bg-[#c9a876] mx-auto mb-12" />
             <h3 className="text-4xl md:text-5xl font-serif leading-relaxed italic text-white font-light">
-              "Time is the ultimate luxury. We merely give it a beautiful home."
+              &quot;Time is the ultimate luxury. We merely give it a beautiful home.&quot;
             </h3>
             <div className="w-px h-16 bg-[#c9a876] mx-auto mt-12" />
           </div>
@@ -164,7 +164,7 @@ export default function Home() {
               <span className="text-[#c9a876] text-xs uppercase tracking-[0.3em] mb-6 block">The Presentation</span>
               <h2 className="text-5xl md:text-6xl font-serif mb-8 text-white font-light">Make It Yours</h2>
               <p className="text-lg text-gray-400 mb-12 font-light leading-relaxed max-w-md">
-                Delivered in a bespoke presentation box carved from sustainable walnut, lined with midnight velvet. A true collector's piece.
+                Delivered in a bespoke presentation box carved from sustainable walnut, lined with midnight velvet. A true collector&apos;s piece.
               </p>
               <button className="bg-[#c9a876] text-black px-12 py-5 rounded-sm text-xs uppercase tracking-[0.2em] font-bold hover:bg-white transition-colors">
                 Reserve Now

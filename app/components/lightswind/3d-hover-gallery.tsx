@@ -2,6 +2,7 @@ import React, { useRef, useEffect, useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const cn = (...classes: any[]) => classes.filter(Boolean).join(" ");
 
 export interface GalleryItem {

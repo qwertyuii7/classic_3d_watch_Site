@@ -152,7 +152,7 @@ export default function MaterialsSection() {
               className="min-h-screen flex flex-col justify-center px-8 md:px-20 lg:px-28"
             >
               <span className="text-[#c9a876] text-xs uppercase tracking-[0.3em] mb-6 block font-light">
-                0{idx + 1} // Material
+                0{idx + 1} {`// Material`}
               </span>
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif mb-6 font-light leading-tight">
                 {item.title}
